@@ -1,0 +1,759 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar .first{
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+ }
+.first .fa-facebook{
+    color: blue;
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+} 
+.first input{
+    position: absolute;
+    border-radius: 30px;
+    bottom: 10px;
+    left: 50px;
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    border-style: none;
+    padding: 8px 20px;
+}
+.first .fa-magnifying-glass{
+    position: absolute;
+    left: 64px;
+    top: 22px;
+    z-index: 1000 !important;
+}
+.nav-bar .second{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+.second .image1{
+    position: absolute;
+    right: 280px;
+}
+.second .fa-user-group{
+    position: absolute;
+    right: 150px; 
+    color: gainsboro;
+}
+.second .fa-video{
+    position: absolute;
+    left: 10px;
+    color: navy;
+}
+.second .fa-shop{
+    position: absolute;
+    left: 150px;
+    color: navy;
+}
+.third{
+   position: relative; 
+}
+.third .fa-users{
+    position: absolute;
+    right: 430px;
+    top: 30px;
+}
+.third img{
+    position: absolute;
+    right: 380px;
+    height: 25px;
+    border-radius: 25px;
+    top: 25px;
+
+}
+.third span{
+    font-family: sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: 330px;
+    top: 27px;
+}
+.third .fa-list{
+    position: absolute;
+    right: 250px;
+    top: 27px;
+}
+.third .fa-facebook-messenger{
+    position: absolute;
+    right: 150px;
+    top: 27px;
+    color: rgb(13, 150, 204);
+}
+.third .fa-bell{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+/* --------------------------end nav--------------------------- */
+
+.parents{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    font-family: sans-serif;
+    background-color: gainsboro ;
+    justify-content: space-between;
+}
+.parents .children{
+    width: 20%;
+    background-color: transparent;
+    height: 100vh;
+}
+.parents .son{
+    width: 50%;
+    height: 100vh;
+    background-color: transparent;
+} 
+.parents .daughter{
+    width: 30%;
+    height:  100vh;
+    background-color: transparent;
+} 
+ .children .girl1{
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+}
+.children .girl1 img{
+    border-radius: 25px;
+    height: 25px;
+}
+.children .girl1 span{
+    font-size: 15px;
+    font-family: serif;
+    margin-left: 10px;
+}
+.children .female{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 25px
+}
+.children .female img{
+    height: 25px;
+    border-radius: 25px;
+}
+.children .female span{
+   margin-left: 10px;   
+}
+.children .adult{
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+    color: white;
+    margin-top: 25px;
+}
+.children .adult span{
+    margin-left: 10px;
+    color: black;
+}
+.children .male{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.children .male span{
+    margin-left: 15px;
+}
+.children .store{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.children .store span{
+    color: black;
+    margin-left: 10px;
+}
+.children .vd{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.children .vd span{
+    color: black;
+    margin-left: 10px;
+}
+.children .show{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.children .show span{
+    margin-left: 10px;
+}
+.children .arrow{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.children .arrow span{
+    margin-left: 10px;
+}
+.children .event{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.children .event span{
+    margin-left: 10px;
+    color: black;
+}
+.children .basket{
+    display: flex;
+    color: navy;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.children .basket span{
+    margin-left: 10px;
+    color: black;
+}
+.children .more{
+    display: flex;
+    align-items: center;
+}
+.children p{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.children .more .we{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 37px;
+}
+/* -------------------end children---------------- */
+
+/* --------------------start-son------------------------ */
+
+.son .names{
+    display: flex;
+    border-radius: 10px;
+}
+.parents .son .obi{
+    background-color: white;
+    height: 25vh;
+    width: 75px;
+    display: flex;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+.son .obi img{
+    /* display: flex; */
+    width: 75px;
+    height: 22vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.son .obi p{
+    margin-top: 150px;
+    font-size: 12px;
+    /* z-index: 1000 important!; */
+    margin-left: -70px; 
+    text-align: center;
+}
+.parents .son .best{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 25vh;
+    width: 75px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.son .best img{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 25vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+}
+.best .nysc img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 20px;
+}
+.best .nysc h4{
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    font-size: 15px;
+    color: white;
+}
+.parents .son .delight{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    height: 25vh;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.son .delight img{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 25vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+}
+.delight .cute img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 20px;
+}
+.delight .cute h4{
+    position: absolute;
+    left: 10px;
+    top: 85px;
+    font-size: 12px;
+    color: white;
+}
+.parents .son .kelvin{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 25vh;
+    width: 75px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.son .kelvin img{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 25vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+}
+.kelvin .finese img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 20px;
+}
+.kelvin .finese h4{
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  font-size: 12px;
+  color: white;
+}
+.parents .son .telsa{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 25vh;
+    width: 75px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.son .telsa img{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 25vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+}
+.telsa .beauty img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+}
+.telsa .beauty h4{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    font-size: 12px;
+    color: white;
+}
+.parents .son .divine{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 25vh;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.son .divine img{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 25vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+}
+.parents .son .precious{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+    height: 25vh;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.son .precious img{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+    height: 25vh;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+}
+.precious .pretty img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 20px;
+}
+.precious .pretty h4{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    font-size: 12px;
+    color: white;
+} 
+.son .content{
+    background-color: whitesmoke;
+    width: 97%;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 20vh;
+}
+.son .content h3{
+   font-size: 20px;
+   /* margin-top: 15px; */
+   padding-top: 15px;
+   margin-left: 20px;
+}
+.son .content p{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.content .tel{
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+}
+.content .tel .info{
+    background-color: gray;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+.content .tel .info p{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 80px;
+    /* padding: 5px; */
+    /* padding-bottom: 3px; */
+    text-align: center;
+}
+.content .tel .box{
+    background-color: gray;
+    width: 40%;
+    display: flex;
+    height: 22px;
+    margin-right: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.content .tel .box p{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.son .flex{
+    width: 97%;
+    height: 55px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.son .flex img{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.son .flex input{
+    width: 85%;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: black;
+    background-color: rgb(153, 146, 146);
+    border-style: none;
+    border-radius: 20px;
+}
+.son .connect{
+    background-color: white;
+    width: 97%;
+    height: 40px;
+    /* margin-top: -5px; */
+    display: flex;
+    justify-content: space-between;
+}
+.connect p{
+    margin-top: 15px;
+    font-size: 12px; 
+}
+.connect .faith p{
+    margin-left: 10px;
+}
+.connect .wealth p{
+    margin-right: 10px;
+}
+.son .close{
+    background-color: blue;
+    width: 97%;
+    height: 15vh;
+    margin-top: -5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+}
+.close .mine img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.close .tem h4{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.close .tem p{
+    margin-top: 15px;
+    margin-right: 100px;
+
+}
+/* ----------------------------------end son---------------------- */
+
+/* -----------------------------------start daughter----------------------- */
+
+.daughter .ada h2{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.daughter .ada h3{
+    font-size: 12px;
+    margin-left: 80px;
+    margin-top: 12px;
+}
+.ada .image{
+    /* margin-left: 5px; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.ada .image img{
+    width: 20%;
+}
+.ada h4{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.daughter .people{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.people p{
+    margin-left: 7px;
+    font-size: 13px;
+}
+.people .fa-magnifying-glass{
+    margin-left: 250px;
+    font-size: 15px;
+}
+.people .fa-ellipsis{
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.daughter .person1{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px; 
+    align-items: center;
+}
+.person1 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+.person1 h3{
+   font-size: 15px;
+    margin-left: 10px;
+}
+.daughter .person2{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px; 
+    align-items: center;
+}
+.person2 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+.person2 h3{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.daughter .person3{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px; 
+    align-items: center;
+}
+.person3 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+.person3 h3{
+    font-size: 15px;
+    margin-left: 10px;  
+}
+.daughter .person4{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px; 
+    align-items: center;
+}
+.person4 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px; 
+}
+.person4 h3{
+    font-size: 15px;
+    margin-left: 10px;  
+}
+.daughter .person5{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px; 
+    align-items: center;
+}
+.person5 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px; 
+}
+.person5 h3{
+    font-size: 15px;
+    margin-left: 10px; 
+}
+.daughter .person6{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px; 
+    align-items: center;
+}
+.person6 img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px; 
+}
+.person6 h3{
+    font-size: 15px;
+    margin-left: 10px; 
+}
+
+/* .under hr{
+    width: 97%;
+    z-index: 1000;
+} */
